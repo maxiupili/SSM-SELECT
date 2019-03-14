@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.select.dao.EnrollmentDao">
+    <insert id="insertEnrollment" keyProperty="enrollmentId" useGeneratedKeys="true">
+        INSERT INTO enrollment (user_id, project_id)
+            VALUE (#{userId}, #{projectId})
+    </insert>
+    <select id="selectProjectIdByUserId" resultType="Long">
+        SELECT project_id
+        FROM enrollment
+        WHERE user_id = #{userId}
+    </select>
+    <delete id="deleteByUserId">
+        DELETE
+        FROM enrollment
+        WHERE user_id = #{id}
+    </delete>
+    <select id="selectWithProjectAndUser" resultType="Enrollment">
+        SELECT
+            u.realname     "user.realname",
+            p.project_name "project.project_name"
+        FROM enrollment e
+            INNER JOIN user u ON e.user_id = u.user_id
+            INNER JOIN project p ON p.project_id = e.project_id
+    </select>
+</mapper>

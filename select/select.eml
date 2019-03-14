@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_1_5" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/main/test/resources"/>
+		<testFolder url="file://$MODULE_DIR$/src/test/resources"/>
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+	</contentEntry>
+	<lib name="Maven: junit:junit:4.12" scope="TEST"/>
+	<lib name="Maven: org.hamcrest:hamcrest-core:1.3" scope="TEST"/>
+	<lib name="Maven: ch.qos.logback:logback-classic:1.2.3" scope="TEST"/>
+	<lib name="Maven: javax.servlet:javax.servlet-api:4.0.0" scope="PROVIDED"/>
+	<lib name="Maven: org.springframework:spring-test:5.0.1.RELEASE" scope="TEST"/>
+	<levels>
+		<level name="Maven: junit:junit:4.12" value="project"/>
+		<level name="Maven: org.hamcrest:hamcrest-core:1.3" value="project"/>
+		<level name="Maven: org.slf4j:slf4j-api:1.7.25" value="project"/>
+		<level name="Maven: ch.qos.logback:logback-core:1.2.3" value="project"/>
+		<level name="Maven: ch.qos.logback:logback-classic:1.2.3" value="project"/>
+		<level name="Maven: mysql:mysql-connector-java:5.1.44" value="project"/>
+		<level name="Maven: com.mchange:c3p0:0.9.5.2" value="project"/>
+		<level name="Maven: com.mchange:mchange-commons-java:0.2.11" value="project"/>
+		<level name="Maven: org.mybatis:mybatis:3.4.5" value="project"/>
+		<level name="Maven: org.mybatis:mybatis-spring:1.3.1" value="project"/>
+		<level name="Maven: taglibs:standard:1.1.2" value="project"/>
+		<level name="Maven: javax.servlet:jstl:1.2" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.2" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" value="project"/>
+		<level name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.2" value="project"/>
+		<level name="Maven: javax.servlet:javax.servlet-api:4.0.0" value="project"/>
+		<level name="Maven: org.springframework:spring-core:5.0.1.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-jcl:5.0.1.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-beans:5.0.1.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-context:5.0.1.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-aop:5.0.1.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-expression:5.0.1.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-jdbc:5.0.1.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-tx:5.0.1.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-web:5.0.1.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-webmvc:5.0.1.RELEASE" value="project"/>
+		<level name="Maven: org.springframework:spring-test:5.0.1.RELEASE" value="project"/>
+	</levels>
+</component>
